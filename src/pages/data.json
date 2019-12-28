@@ -1,0 +1,51 @@
+{
+    "code": 200,
+    "status": "ok",
+    "data": [
+        {
+            "id": 0,
+            "img": "//p1.meituan.net/200.0/deal/7fa4d4497aab7b81ced0d3081616e77262464.jpg@117_0_468_468a%7C267h_267w_2e_90Q",
+            "name": "掉香缘掉渣饼",
+            "title": "[西单]掉渣饼1份，提供免费WiFi",
+            "price": 7.9,
+            "prices": 10,
+            "sales": 35772
+        },
+        {
+            "id": 1,
+            "img": "//p1.meituan.net/200.0/deal/333ce94289cb9bcbb1c3a7656837250b58257.jpg@160_0_640_640a%7C267h_267w_2e_90Q",
+            "name": "虾吃虾涮",
+            "title": "[上地]2人招牌虾锅套餐",
+            "price": 128,
+            "prices": 175,
+            "sales": 10024
+        },
+        {
+            "id": 2,
+            "img": "//p0.meituan.net/200.0/deal/fd9697068cbd7d91245bb725bddb693441716.jpg@155_0_420_420a%7C267h_267w_2e_90Q",
+            "name": "吉野家",
+            "title": "[161店通用]辣白菜猪肉饭大碗+中杯可乐/中杯七喜1份",
+            "price": 18,
+            "prices": 30,
+            "sales": 115128
+        },
+        {
+            "id": 3,
+            "img": "//p0.meituan.net/200.0/deal/afead95b04178b291acfa905230a049d215365.jpg@0_80_640_640a%7C267h_267w_2e_100Q",
+            "name": "小城外婆肴私房菜",
+            "title": "[上地]2-3人虾锅豪华套餐",
+            "price": 98,
+            "prices": 243,
+            "sales": 9475
+        },
+        {
+            "id": 4,
+            "img": "//p0.meituan.net/200.0/dpdeal/ae7e2404222d008cddfd6b22649e26e11230576.jpg",
+            "name": "汤泉良子",
+            "title": "[上地]（特惠）洗浴+汗蒸+搓澡+护理单人套餐",
+            "price": 138,
+            "prices": 198,
+            "sales": 7385
+        }
+    ]
+}

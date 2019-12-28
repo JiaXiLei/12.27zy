@@ -1,0 +1,298 @@
+.pages-count{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.24rem;
+    header{
+        width: 100%;
+        .header-input{
+            width: 100%;
+            padding: 0.2rem;box-sizing: border-box;
+            background: #FFBD00;
+            display: flex;
+            align-items: center;
+            &>p:nth-child(1){
+                padding: 0 0.1rem;
+                box-sizing: border-box;
+                img{
+                    width: 0.2rem;
+                    height: auto;
+                    margin-left: 0.1rem;
+                }
+            }
+            &>p:nth-child(2){
+                flex: 1;
+                padding: 0 0.2rem;
+                input{
+                    width: 100%;
+                    border: 0;
+                    padding: 0.1rem 0;
+                    box-sizing: border-box;
+                    text-align: center;
+                    border-radius: 0.1rem;
+                    background: white url(input.png) no-repeat;
+                    background-size: 0.3rem 0.3rem;
+                    background-position: 10% center;
+                    outline: none;
+                }
+            }
+            &>p:nth-child(3){
+                img{
+                    width: 0.5rem;
+                    height: 0.5rem;
+                }
+            }
+        }
+        &>div:nth-child(2){
+            width: 100%;
+            padding: 0.2rem 0.3rem;
+            box-sizing: border-box;
+            background: black;
+            display: flex;
+            align-items: center;
+            p:nth-child(1){
+                img{
+                    width: 0.7rem;
+                    height: 0.7rem;
+                }
+            }
+            p:nth-child(2){
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                color: white;
+                padding-left: 0.2rem;
+                box-sizing: border-box;
+            }
+            p:nth-child(3){
+                background: #FFBD00;
+                padding: 0.1rem 0.2rem;
+                box-sizing: border-box;
+                border-radius: 0.1rem;
+            }
+
+        }
+        .header-title{
+            width: 100%;
+            &>div{
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                dl{
+                    width: 20%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    margin-top: 0.2rem;
+                    dt{
+                        width: 0.8rem;
+                        height: 0.8rem;
+                        border-radius: 50%;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        color: white;
+                        font-size: 0.4rem;
+                    }
+                    dd{
+                        color: gray;
+                        margin-top: 0.08rem;
+                    }
+                }
+            }
+        }
+    }
+    section{
+        flex: 1;
+        overflow: auto;
+        h3{
+            padding: 0.2rem;
+            box-sizing: border-box;
+        }
+        &>div{
+            width: 100%;
+            padding: 0 0.2rem;
+            box-sizing: border-box;
+            dl{
+                width: 100%;
+                padding: 0.2rem 0;
+                box-sizing: border-box;
+                border-top: 0.02rem solid gainsboro;
+                display: flex;
+                dt{
+                    img{
+                        width: 1.7rem;
+                        height: 1.7rem;
+                        
+                    }
+                }
+                dd{
+                    flex: 1;
+                    padding-left: 0.2rem;
+                    box-sizing: border-box;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    div:nth-child(1){
+                        p:nth-child(1){
+                            font-size: 0.27rem;
+                        }
+                        p:nth-child(2){
+                            margin-top: 0.1rem;
+                            color: gray;
+                            
+                            overflow: hidden
+                        }
+                    }
+                    div:nth-child(2){
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-between;
+                        p{
+                            span:nth-child(1){
+                                font-size: 0.3rem;
+                                color: orange;
+                            }
+                            span:nth-child(2){
+                                color: gray;
+                                padding-left: 0.08rem;
+                            }
+                        }
+                        &>span{
+                            color: gray;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+.pages-food{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.24rem;
+    header{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        
+        .header-input{
+            width: 100%;
+            padding: 0.2rem;box-sizing: border-box;
+            background: rgba(255, 255, 255, 0);
+            display: flex;
+            align-items: center;
+            &>p:nth-child(1){
+                padding: 0 0.1rem;
+                box-sizing: border-box;
+                img{
+                    width: 0.2rem;
+                    height: auto;
+                    margin-left: 0.1rem;
+                }
+            }
+            &>p:nth-child(2){
+                flex: 1;
+                padding: 0 0.2rem;
+                input{
+                    width: 100%;
+                    border: 0;
+                    padding: 0.1rem 0;
+                    box-sizing: border-box;
+                    text-align: center;
+                    border-radius: 0.1rem;
+                    background: white url(input.png) no-repeat;
+                    background-size: 0.3rem 0.3rem;
+                    background-position: 10% center;
+                    outline: none;
+                }
+            }
+            &>p:nth-child(3){
+                img{
+                    width: 0.5rem;
+                    height: 0.5rem;
+                }
+            }
+        }
+    }
+    section{
+        flex: 1;
+        overflow: auto;
+        .sce-img{
+            width: 100%;
+            img{
+                width: 100%;
+                height: auto;
+            }
+        }
+        .header-title{
+            width: 100%;
+            &>div{
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                dl{
+                    width: 20%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    margin-top: 0.2rem;
+                    dt{
+                        width: 0.8rem;
+                        height: 0.8rem;
+                        border-radius: 50%;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        color: white;
+                        font-size: 0.4rem;
+                    }
+                    dd{
+                        color: gray;
+                        margin-top: 0.08rem;
+                    }
+                }
+            }
+        }
+        .sec-cont{
+            width: 100%;
+            padding: 0 0.2rem;
+            box-sizing: border-box;
+            margin-top: 0.3rem;
+            dl{
+                width: 100%;
+                padding: 0.2rem 0;
+                box-sizing: border-box;
+                border-top: 0.02rem solid gainsboro;
+                display: flex;
+                dt{
+                    img{
+                        width: 1.7rem;
+                        height: 1.7rem;
+                        
+                    }
+                }
+                dd{
+                    flex: 1;
+                    padding-left: 0.2rem;
+                    box-sizing: border-box;
+                    p:nth-child(1){
+                        font-size: 0.3rem;
+                    }
+                }
+            }
+        }
+    }
+    section::webkit-scrollbar{width: 0;}
+
+}
